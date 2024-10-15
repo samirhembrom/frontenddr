@@ -1,0 +1,293 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f1ed;
+  color: #21201f;
+  font-family: "Lato", sans-serif;
+
+}
+
+/* Elements */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  border: 2px solid #21201f;
+}
+
+a.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+/* Header */
+header {
+  padding: 1em 4em;
+  display: flex;
+  align-items: center;
+  border-bottom: .15em solid #21201f;
+}
+
+header>a {
+  margin-left: 10em;
+  display: flex;
+  padding-top: 5px;
+}
+
+.img-logo {
+
+  height: 50px;
+}
+
+.navbar-1>a {
+  color: inherit;
+  font-size: 1.25rem;
+  margin-right: 1rem;
+  position: relative;
+  color: #21201f;
+}
+
+.navbar-1>a:hover {
+  text-decoration: underline;
+}
+
+.navbar-2 {
+  margin-left: auto;
+}
+
+.btn-login {
+  padding: 1em;
+  transition: background-color .5s, color .5s;
+}
+
+.btn-login:hover {
+  background-color: #21201f;
+  color: #fff;
+}
+
+/* Home_LANDING PAGE */
+
+main {
+  padding: 2em 4em;
+}
+
+.banner {
+  text-align: center;
+  padding: 0 200px;
+}
+
+.title {
+  font-size: 4em;
+  font-weight: 900;
+}
+
+.btn-book {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 1em 2em;
+  font-size: 1.25em;
+  background-color: #21201f;
+  color: #f4f1ed;
+  transition: background-color .5s, color .5s;
+
+}
+
+
+
+.btn-book:hover {
+  background-color: #f4f1ed;
+  color: #21201f;
+}
+
+/* DOCTORS ++++++++++++++PAGE */
+.doc-header {
+  font-size: 4em;
+  margin: 0;
+}
+
+.doc-list-container {
+  margin-top: 2em;
+}
+
+.doc-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.doc-tile {
+  width: 200px;
+  margin: 1em;
+  padding: 1em;
+  border: 2px solid #21201f;
+  border-radius: 8px;
+}
+
+.doc-info>h3,
+p {
+  margin: 0;
+}
+
+/* Doctor Details */
+
+.doctor-container {
+  display: flex;
+  align-items: start;
+}
+
+.doctor-detail-container {
+  width: 300px;
+  padding: 2em 1em;
+  border: 2px solid #21201f;
+  border-radius: 8px;
+}
+
+.doctor-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.doctor-slots-container {
+
+  display: flex;
+  margin-left: 2em;
+}
+
+.slots-details {
+  margin-left: 2em;
+  border: 2px solid #21201f;
+  padding: 2em;
+  width: 400px;
+}
+
+.slots-details>h2,
+p {
+  margin: 0;
+}
+
+/* HOST Page */
+
+.host-nav {
+  padding: 1em 4em;
+}
+
+.host-nav>a {
+  font-size: 1.15rem;
+  margin-right: 1rem;
+  position: relative;
+  color: #21201f;
+}
+
+.host-nav>a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.back-link {
+  flex: 0 0 100%;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 2em;
+  display: block;
+}
+
+/* NOT FOUND PAGE */
+
+.notfound {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container-notfound {
+  width: 400px;
+}
+
+.header-notfound {
+  font-size: 2em;
+}
+
+.btn-notfound {
+  display: inline-block;
+  padding: 1em 2em;
+  color: #f4f1ed;
+  background-color: #21201f;
+  transition: background-color .5s, color .5s;
+}
+
+.btn-notfound:hover {
+  background-color: #f4f1ed;
+  color: #21201f;
+}
+
+/* ==========LOGIN */
+
+.login-container {
+  margin-top: 5em;
+  text-align: center;
+}
+
+.login-container>h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.login-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login-form>input,
+select {
+  padding: .5em .25em;
+  font-size: 1.15em;
+  width: 400px;
+  border: 1px solid #21201f;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+.login-form>button {
+  padding: .5em .25em;
+  font-size: 1.15em;
+  width: 400px;
+  background-color: #21201f;
+  color: #f4f1ed;
+  border-radius: 5px;
+  box-shadow: 0 4px #393838;
+}
+
+.login-form>button:active {
+  background-color: #000000;
+  box-shadow: 0 4px #666;
+  transform: translateY(4px);
+}
+
+.red {
+  color: red;
+}
+
+/* Register Container */
+
+.mt-r {
+  margin-top: 0;
+}
+
+.check {
+  margin-bottom: 1em;
+}
+
+.link {
+  font-weight: 900;
+  color: rgb(0, 89, 255);
+}
